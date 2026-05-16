@@ -1,52 +1,107 @@
-# 🏏 IPL Performance Prediction
+# 🏏 IPL Match Winner Prediction Using Machine Learning
 
 ## 📌 Project Overview
 
-This project focuses on analyzing **Indian Premier League (IPL)** matches using Python.
-It covers **data collection, preprocessing, feature engineering, exploratory data analysis (EDA), and visualization**.
+This project predicts the winner of IPL matches using Machine Learning techniques.
+A Random Forest Classifier is trained on historical IPL match data and deployed using Streamlit to create an interactive prediction web application.
 
-The project highlights **key patterns in team performance, player stats, and match outcomes** across different IPL seasons.
+This project demonstrates:
 
-## 🎯 Objectives
+* 📊 Data Analysis
+* 🧹 Data Cleaning
+* ⚙️ Feature Engineering
+* 🤖 Machine Learning
+* 📈 Model Evaluation
+* 🌐 Streamlit Deployment
 
-* Clean and preprocess raw IPL data for analysis.
-* Perform **EDA** to find trends, patterns, and insights.
-* Create **data visualizations**.
-* Build a foundation for predictive modeling and dashboards.
+# 🚀 Features
 
-## 📂 Dataset
+✅ Predict IPL Match Winners
+✅ Interactive Streamlit Web App
+✅ Real-Time Match Prediction
+✅ Random Forest Machine Learning Model
+✅ Feature Importance Analysis
+✅ User-Friendly Interface
 
-The dataset includes IPL **matches** details from 2008–2024.
+# 🛠️ Technologies Used
 
-* **matches.csv** → Match-level details (season, venue, toss, result, etc.).
-> Source: Kaggle & official IPL data
+| Technology      | Purpose              |
+| --------------- | -------------------- |
+| Python 🐍       | Programming Language |
+| Pandas 📊       | Data Handling        |
+| NumPy 🔢        | Numerical Operations |
+| Scikit-learn 🤖 | Machine Learning     |
+| Streamlit 🌐    | Web App Deployment   |
+| Joblib 💾       | Model Saving         |
 
-## 🛠️ Tech Stack
+# 📂 Dataset Features
 
-* **Language:** Python
-* **Libraries:** Pandas, NumPy, Matplotlib, Seaborn
-* **Environment:** Jupyter Notebook
-* **Optional Tools:** SQL, Power BI (for extended analysis)
+The following features were used for prediction:
 
-## 🔍 Key Analyses & Insights
+* 🏏 Team 1
+* 🏏 Team 2
+* 🪙 Toss Winner
+* 📢 Toss Decision
+* 🏟️ Venue
+* 🌍 City
 
-✔️ Matches per season & overall trends
-✔️ Toss decisions and win percentage impact
-✔️ Highest & lowest team totals
-✔️ Top batsmen 
-✔️ Venue-wise winning patterns
-✔️ Super overs, DLS-affected & rain-interrupted matches
-✔️ Extras distribution (wides, no-balls, byes)
+Target Variable:
 
-## 📊 Sample Visualizations
+* 🎯 Match Winner
 
-* Season-wise match distribution
-* Team winning consistency
-* Toss decision vs result analysis
-* Venue-based success rate
+# 🤖 Machine Learning Workflow
 
-## 📌 Future Enhancements
+## 1️⃣ Data Preprocessing
 
-* Build **machine learning models** to predict match outcomes.
-* Create **interactive dashboards** (Power BI / Tableau / Streamlit).
-* Extend the analytical framework to other cricket leagues and tournaments
+* Removed missing values
+* Selected important columns
+* Encoded categorical data
+
+## 2️⃣ Feature Engineering
+
+* Created ML-ready input features
+* Removed unnecessary columns
+
+## 3️⃣ Model Training
+
+* Algorithm Used: Random Forest Classifier 🌲
+* Train-Test Split: 80-20
+
+## 4️⃣ Model Evaluation
+
+* Accuracy Score 📈
+* Classification Report 📋
+* Feature Importance 🔍
+
+# 📊 Feature Importance Insights
+
+The model analyzes which factors affect match outcomes the most, including:
+
+* Teams
+* Toss Winner
+* Venue
+* Match Location
+
+This helps understand important factors behind IPL match predictions.
+
+# 📚 Learning Outcomes
+
+This project helped in understanding:
+
+* End-to-End Machine Learning Workflow
+* Data Preprocessing Techniques
+* Label Encoding
+* Classification Algorithms
+* Model Deployment using Streamlit
+* Sports Analytics
+
+# 👨‍💻 Author
+
+## Paras
+
+Aspiring Data Analyst & Machine Learning Enthusiast 🚀
+
+
+# ⭐ If You Like This Project
+
+Give this repository a ⭐ on GitHub!
