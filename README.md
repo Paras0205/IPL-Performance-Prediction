@@ -1,4 +1,4 @@
-# 🏏 IPL-Performance-Analysis
+# 🏏 IPL Performance Prediction
 
 ## 📌 Project Overview
 
