@@ -99,7 +99,7 @@ This project helped in understanding:
 
 ## Paras
 
-Aspiring Data Analyst & Machine Learning Enthusiast 🚀
+Aspiring Data Analyst 
 
 
 # ⭐ If You Like This Project
